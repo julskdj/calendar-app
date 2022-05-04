@@ -1,9 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import CalendarApp from "./CalendarApp";
+import './Styles.css'
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <CalendarApp/>
-  </React.StrictMode>
-);
+ReactDOM.render(<CalendarApp />, document.getElementById("root"));
